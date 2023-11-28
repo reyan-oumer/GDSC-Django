@@ -52,7 +52,7 @@ while True:
     print("3. List All Students")
     print("4. Update Student Information")
     print("5. Delete Student")
-    print("6. Exit")
+    print("6. Close")
 
     choice = input("Enter your choice (1-6): ")
 
@@ -67,7 +67,7 @@ while True:
     elif choice == '5':
         delete_student()
     elif choice == '6':
-        print("Exiting the program. Goodbye!")
+        print("Closing.. ")
         break
     else:
         print("Invalid choice. Please enter a number from 1 to 6.")
